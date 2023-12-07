@@ -1,0 +1,45 @@
+.divfooder {
+    padding-left: 140px;
+    margin-right: 0%;
+}
+
+.navbarfooder {
+    float: left;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    margin: 0%;
+}
+
+.narbarfooderdos {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0%;
+}
+
+.liuno {
+    padding-right: 15px;
+}
+
+.licinco {
+    padding-right: 360px;
+    padding-left: 25px;
+}
+
+.liseis {
+    padding-right: 7px;
+}
+
+.image-ubicartres {
+    margin-bottom: 7px;
+}
+
+.texto-tabla {
+    color: rgba(63, 61, 61, 0.89);
+    font-size: 15px;
+    margin: 0%
+}
+
+.texto-tablados {
+    font-size: 11px;
+}
