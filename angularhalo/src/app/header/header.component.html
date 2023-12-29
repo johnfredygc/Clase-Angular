@@ -1,143 +1,147 @@
 <div id="fondo">
-<header class="header">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="https://www.microsoft.com/es-co/">
-                <img src="assets/image/microsoft-logo.png" alt="Logo" width="120" height="28"
-                    class="d-inline-block align-text-top">
-            </a>
-            <hr class="linea-vertical">
-            <a class="navbar-brand litres" href="http://127.0.0.1:5501/index.html#">
-                <img src="assets/image/xbox-logo.png" alt="Logo" width="80" height="25"
-                    class="d-inline-block align-text-top">
-            </a>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://www.microsoft.com/es-co/">
+                    <img src="assets/image/microsoft-logo.png" alt="Logo" width="120" height="28"
+                        class="d-inline-block align-text-top">
+                </a>
+                <hr class="linea-vertical">
+                <a class="navbar-brand litres" [routerLink]="['/bienvenido']" routerLinkActive="active">
+                    <img src="assets/image/xbox-logo.png" alt="Logo" width="80" height="25"
+                        class="d-inline-block align-text-top">
+                </a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 letras nav-underline">
-                    <li class="nav-item dropdown liuno letras">
-                        <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Game Pass
-                        </a>
-                        <ul class="nav-underline dropdown-menu dropdown-menu-dark ">
-                            <li><a class="dropdown-item letras2" href="#">Únete a Game Pass</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Explorar juegos</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Game Pass Ultimate</a></li>
-                            <li><a class="dropdown-item letras2" href="#">PC Game Pass</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Game Pass Core</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Ofertas con Game Pass</a></li>
-                        </ul>
-                    </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 letras nav-underline">
+                        <li class="nav-item dropdown liuno letras">
+                            <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Game Pass
+                            </a>
+                            <ul class="nav-underline dropdown-menu dropdown-menu-dark ">
+                                <li><a class="dropdown-item letras2" href="#">Únete a Game Pass</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Explorar juegos</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Game Pass Ultimate</a></li>
+                                <li><a class="dropdown-item letras2" href="#">PC Game Pass</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Game Pass Core</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Ofertas con Game Pass</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="nav-item dropdown liuno letras">
-                        <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Juegos
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark letras">
-                            <li><a class="dropdown-item letras2"
-                                    href="http://127.0.0.1:5501/index-formulario.html">Formulario
-                                    Halo</a></li>
-                            <li><a class="dropdown-item letras2" href="http://127.0.0.1:5501/index-video.html">Video
-                                    Halo</a></li>
-                            <li><a class="dropdown-item letras2" href="http://127.0.0.1:5501/index-mapa.html">Mapa
-                                    Halo</a></li>
-                        </ul>
-                    </li>
+                        <li class="nav-item dropdown liuno letras">
+                            <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Juegos
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark letras">
+                                <li><a class="dropdown-item letras2" [routerLink]="['/formulario']"
+                                        routerLinkActive="active">Formulario
+                                        Halo</a></li>
+                                <li><a class="dropdown-item letras2" [routerLink]="['/video']"
+                                        routerLinkActive="active">Videos - Tarjetas
+                                        Halo</a></li>
+                                <li><a class="dropdown-item letras2" [routerLink]="['/mapa']"
+                                        routerLinkActive="active">Mapa
+                                        Halo</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="nav-item dropdown liuno">
-                        <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dispositivos
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark letras">
-                            <li><a class="dropdown-item letras2" href="#">Action</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Another action</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+                        <li class="nav-item dropdown liuno">
+                            <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dispositivos
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark letras">
+                                <li><a class="dropdown-item letras2" href="#">Action</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Another action</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="nav-item dropdown liuno">
-                        <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Comunidad
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark letras">
-                            <li><a class="dropdown-item letras2" href="#">Action</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Another action</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+                        <li class="nav-item dropdown liuno">
+                            <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Comunidad
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark letras">
+                                <li><a class="dropdown-item letras2" href="#">Action</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Another action</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="nav-item dropdown liuno">
-                        <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Soporte Técnico
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark letras">
-                            <li><a class="dropdown-item letras2" href="#">Action</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Another action</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+                        <li class="nav-item dropdown liuno">
+                            <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Soporte Técnico
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark letras">
+                                <li><a class="dropdown-item letras2" href="#">Action</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Another action</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="nav-item dropdown liuno">
-                        <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Mi Xbox
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark letras">
-                            <li><a class="dropdown-item letras2" href="#">Action</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Another action</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+                        <li class="nav-item dropdown liuno">
+                            <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Mi Xbox
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark letras">
+                                <li><a class="dropdown-item letras2" href="#">Action</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Another action</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="nav-item dropdown lidos">
-                        <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Desarrolladores
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark letras">
-                            <li><a class="dropdown-item letras2" href="#">Action</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Another action</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+                        <li class="nav-item dropdown lidos">
+                            <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Desarrolladores
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark letras">
+                                <li><a class="dropdown-item letras2" href="#">Action</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Another action</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="nav-item dropdown liuno">
-                        <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Todo Microsoft
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark letras">
-                            <li><a class="dropdown-item letras2" href="#">Action</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Another action</a></li>
-                            <li><a class="dropdown-item letras2" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item letras licuatro">
-                        <a class="nav-link letras" aria-current="page" href="#">Buscar</a>
-                    </li>
-                    <li class="nav-item letras liuno">
-                        <img src="assets/image/img-buscar.png" alt="Logo" width="17" height="17" class="image-ubicar">
-                    </li>
-                    <li class="nav-item letras licuatro">
-                        <a class="nav-link letras" aria-current="page" href="#">Carro</a>
-                    </li>
-                    <li class="nav-item letras liuno">
-                        <img src="assets/image/img-carrito.png" alt="Logo" width="17" height="17" class="image-ubicar">
-                    </li>
-                    <li class="nav-item letras licuatro">
-                        <a class="nav-link letras" aria-current="page" href="#">Johngonzalez89</a>
-                    </li>
-                    <li class="nav-item letras liuno">
-                        <img src="assets/image/img-usuario.png" alt="Logo" width="30" height="30"
-                            class="image-ubicardos">
-                    </li>
-                </ul>
+                        <li class="nav-item dropdown liuno">
+                            <a class="nav-link dropdown-toggle letras" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Todo Microsoft
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark letras">
+                                <li><a class="dropdown-item letras2" href="#">Action</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Another action</a></li>
+                                <li><a class="dropdown-item letras2" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item letras licuatro">
+                            <a class="nav-link letras" aria-current="page" href="#">Buscar</a>
+                        </li>
+                        <li class="nav-item letras liuno">
+                            <img src="assets/image/img-buscar.png" alt="Logo" width="17" height="17"
+                                class="image-ubicar">
+                        </li>
+                        <li class="nav-item letras licuatro">
+                            <a class="nav-link letras" aria-current="page" href="#">Carro</a>
+                        </li>
+                        <li class="nav-item letras liuno">
+                            <img src="assets/image/img-carrito.png" alt="Logo" width="17" height="17"
+                                class="image-ubicar">
+                        </li>
+                        <li class="nav-item letras licuatro">
+                            <a class="nav-link letras" aria-current="page" href="#">Johngonzalez89</a>
+                        </li>
+                        <li class="nav-item letras liuno">
+                            <img src="assets/image/img-usuario.png" alt="Logo" width="30" height="30"
+                                class="image-ubicardos">
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 </div>

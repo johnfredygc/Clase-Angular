@@ -1,0 +1,27 @@
+.textoh9 {
+    text-align: center;
+    /* Alinea el texto horizontalmente en el centro */
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: 'Gabarito', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.contenedor3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Alineación en la parte inferior del contenedor */
+    align-items: center;
+}
+
+.texto70 {
+    position: absolute;
+    margin-top: -1150px;
+    padding-left: 8%;
+}
+
+.fondoinfinite3 {
+    width: 100%;
+}

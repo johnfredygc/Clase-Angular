@@ -1,0 +1,27 @@
+.textoh9 {
+    text-align: center;
+    /* Alinea el texto horizontalmente en el centro */
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: 'Gabarito', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.mejorsaga {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Gabarito', sans-serif;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.contenedor {
+    padding-right: 10%;
+    padding-left: 10%; 
+    padding-bottom: 5%;
+}
+
+.colorfondo {
+    background-color: rgba(8, 61, 108, 0.806);
+}

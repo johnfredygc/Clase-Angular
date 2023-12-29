@@ -1,0 +1,40 @@
+.textoh8 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Gabarito', sans-serif
+}
+
+.textoh9 {
+    text-align: center;
+    /* Alinea el texto horizontalmente en el centro */
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: 'Gabarito', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.fondoinfinite2 {
+    width: 100%;
+}
+
+.texto60 {
+    position: absolute;
+    margin-top: -1080px;
+}
+
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Alineación en la parte inferior del contenedor */
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+}
+
+.organizar-formulario {
+    margin: 50px 100px 100px 100px;
+    width: 50%;
+    height: 50%;
+}

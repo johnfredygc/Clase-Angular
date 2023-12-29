@@ -1,0 +1,29 @@
+.textoh9 {
+    text-align: center;
+    /* Alinea el texto horizontalmente en el centro */
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: 'Gabarito', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.texto80 {
+    position: absolute;
+    margin-top: -1150px;
+    padding-left: 3%;
+}
+
+.fondoinfinite4 {
+    width: 100%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video {
+    flex: 1;
+    margin: 10px;
+}

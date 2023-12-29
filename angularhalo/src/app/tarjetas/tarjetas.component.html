@@ -1,0 +1,25 @@
+<section class="colorfondo">
+    <div>
+        <h1 class="textoh9">
+            <u>Videojuegos de Halo: Saga completa</u>
+        </h1>
+        <br>
+        <br>
+    </div>
+    <div class="container-fluid contenedor">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col" *ngFor="let info of data">
+                <div class="card h-100">
+                    <img src="{{info.imagen}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{info.nombre}}</h5>
+                        <p class="card-text">{{info.descripcion}}</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">{{info.fecha}}</small>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
